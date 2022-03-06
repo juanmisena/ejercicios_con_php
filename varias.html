@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+</head>
+<body>
+    <form id="formulario" method="get">
+        <label for="title">Por favor ingresa</label>
+        <input type="number" name="n" id="n" min="1" max="999" autofocus>
+        <input type="submit" value="OK">
+    </form>
+    <script>
+        let formulario = document.getElementById("formulario");
+        formulario.addEventListener("submit", function(e) {
+            e.preventDefault();
+            let n = document.getElementById("n");
+            parseInt(n.value);
+            let a = Math.trunc(n.value);
+            let b = (n % 10);
+            if (a==b) {
+                console.log("el numero "+n+" es capicua");
+            } else {
+                console.log("el numero "+n+" no es capicua");
+            }
+        })
+    </script>
+</body>
+</html>
