@@ -199,3 +199,7 @@ con base el numero dado y exponentes entre uno y el exponente introducido. No se
 //     }
 //     console.log(base+" ^ "+i+" = "+potencia);
 // }
+
+//Programa que ejecuta si un los numeros son capicua
+let n = prompt("Por favor ingresar un numero de tres digitos");
+parseInt(n);
