@@ -32,7 +32,7 @@ calcular.addEventListener('click', () => {
     } else if (op == 'raiz') {
         res = Math.sqrt(n1), Math.sqrt(n2);
     } else if(op == 'pow') {
-        res
+        res = Math.pow(n1,n2);
     }
     console.log(res);
     document.querySelector('#r').innerHTML = res;
