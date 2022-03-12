@@ -31,6 +31,8 @@ calcular.addEventListener('click', () => {
         res = n1 / n2;
     } else if (op == 'raiz') {
         res = Math.sqrt(n1), Math.sqrt(n2);
+    } else if(op == 'pow') {
+        res
     }
     console.log(res);
     document.querySelector('#r').innerHTML = res;
