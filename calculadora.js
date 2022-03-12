@@ -14,6 +14,9 @@ document.querySelector('#division').addEventListener('click', () => {
 document.querySelector('#raiz').addEventListener('click', ()=> {
     op = "raiz";
 });
+document.querySelector('#pow').addEventListener('click', ()=> {
+    op = "pow";
+});
 
 var calcular = document.getElementById('calcular');
 calcular.addEventListener('click', () => {
